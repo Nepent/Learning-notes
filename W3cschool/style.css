@@ -6,7 +6,7 @@ body{
     background-color: #fdfcf8;
     font-family: PingFangSC-Regular, Verdana, Arial, 微软雅黑, 宋体;
     font-size: 14px;
-    width: 1519px;
+    width: 100%;
     height: 1987px;
 }
 a{text-decoration: none;}
@@ -16,7 +16,7 @@ li{
 #wrapper{
     height: 1987px;
     width: 1210px;
-    margin:0 auto;
+    margin: 0 auto;
     background-color: #FCFDF8;
 }
 .head{
