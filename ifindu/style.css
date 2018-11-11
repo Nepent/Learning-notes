@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+body {
+    width: 1024px;
+    height: 980px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+header{
+    width: 1024px;
+    height: 100px;
+}
+#nav{
+    margin-left: 340px;
+}
+#nav li{
+    display: inline-block;
+}
+#nav a{
+    margin: 0 10px;
+    color: #A1A1A1;
+    text-decoration: none;
+}
+/*#nav a:link{
+    color: #A1A1A1;
+}
+#nav a:visited{
+    color: black;
+}*/
+
+#log{
+    margin-left: 150px;
+}
+#log img{
+    float: left;
+}
+#search{
+    background: url("images/icon.gif") left center;
+    width: 350px;
+    height: 35px;
+    border: 5px solid #16A9FF;
+    float: left;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+#find{
+    width: 60px;
+    height: 35px;
+    background-color: #16A9FF;
+    color: white;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#left{
+    padding: 10px;
+    width: 600px;
+    height: 430px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.active{
+    float: left;
+    width: 280px;
+    margin-top: 10px;
+}
+.active dt{
+    margin-bottom: 10px;
+}
+.active dd{
+    margin-bottom: 10px;
+}
+.active img{
+    width: 50px;
+    height: 50px;
+}
+#right{
+    width: 400px;
+    float: right;
+    margin-bottom: 10px;
+}
+#form{
+    width: 400px;
+    height: 200px;
+    background-color: #ECF5FC;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+#form img{
+    margin-bottom: 10px;
+}
+
+.panel{
+    color: #0059CA;
+}
+#regis{
+    width: 400px;
+    height: 60px;
+    background-color: #ECF5FC;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    color: #ABADAF;
+    font-size: 20px;
+}
+#regis p{
+    display: inline-block;
+}
+#findp{
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+}
+#findp p{
+    height: 30px;
+    line-height: 30px;
+    background-color: #F3F3F3;
+    border-bottom: 2px solid #B4DAF7;
+}
+#findp img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+#findp ul{
+    width: 400px;
+    height: 120px;
+    padding: 10px;
+}
+#findp li{
+    display: inline-block;
+    margin-right: 80px;
+}
+#adv img{
+    float: left;
+    margin-right: 24px;
+}
+footer{
+    width: 1024px;
+    height: 80px;
+    background-image: url("images/footer_bg.gif");
+    clear: both;
+    margin-top: 15px;
+    line-height: 40px;
+}
+footer ul{
+    width: 1024px;
+    padding-left: 160px;
+}
+footer li{
+    display: inline-block;
+}
+footer a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+}
